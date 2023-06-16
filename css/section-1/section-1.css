@@ -146,7 +146,7 @@
 
 .section-1__option__list--item__details:active {
   border-radius: 50px;
-  background: var(--Orange200);
+  background: var(--Orange200) !important;
 }
 
 .section-1__option__list--item__details--title {
