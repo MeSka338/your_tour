@@ -16,6 +16,11 @@
 }
 
 /* TYPOGRAFY */
+
+textarea {
+  resize: none;
+}
+
 .link:active {
   color: var(--Gray300);
 }
