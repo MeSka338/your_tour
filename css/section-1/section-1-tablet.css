@@ -1,0 +1,5 @@
+@media (max-width: 1024px) {
+  .section-1__options__list--item {
+    min-width: 0;
+  }
+}

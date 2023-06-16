@@ -1,0 +1,22 @@
+@media (max-width: 620px) {
+  .footer__content-wrapper {
+    flex-direction: column;
+  }
+  .footer__contacts {
+    flex-direction: column;
+  }
+  .footer__content--title {
+    text-align: center;
+  }
+  .footer__content--subtitle {
+    text-align: center;
+  }
+  .story__socials {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .footer__content-wrapper {
+    width: 85%;
+  }
+}

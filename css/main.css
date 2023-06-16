@@ -20,6 +20,7 @@
 @import "./section-5/section-5-tablet.css";
 @import "./section-5/section-5-mobile.css";
 @import "./footer/footer.css";
+@import "./footer/footer-tablet.css";
 @import "./footer/footer-mobile.css";
 
 * {

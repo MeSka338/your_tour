@@ -171,7 +171,7 @@ input[type="radio"]:checked + .radio-container > .fake_radio:after {
   color: var(--Gray300);
 }
 .checkbox-label {
-  width: 26px;
+  min-width: 26px;
   height: 26px;
 
   border: 2px solid var(--Black);
