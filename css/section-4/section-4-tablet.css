@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+  .secrtion-4__gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-1:nth-of-type(2) {
+    display: none;
+  }
+  .grid-3:last-child {
+    display: none;
+  }
+
+  .photo-small:nth-last-child(3) {
+    display: none;
+  }
+
+  .grid-big {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

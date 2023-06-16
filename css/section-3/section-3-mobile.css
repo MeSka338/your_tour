@@ -1,0 +1,22 @@
+@media (max-width: 425px) {
+  .section-3 {
+    padding-top: 75px;
+    margin: 0;
+  }
+  .section-3__title {
+    margin-bottom: 20px;
+  }
+  .section-3__subtitle {
+    margin-bottom: 50px;
+  }
+  .section-3__review__wrapper {
+    margin: 0 21px;
+  }
+
+  .section-3__review {
+    padding: 20px;
+
+    min-height: 408px;
+    border-radius: 20px;
+  }
+}

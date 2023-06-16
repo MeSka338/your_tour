@@ -1,0 +1,48 @@
+@media (max-width: 425px) {
+  .section_1 {
+    padding-top: 75px;
+  }
+
+  .section-1__title {
+    margin-bottom: 30px;
+  }
+
+  .section-1__menu {
+    padding: 0;
+    margin: 0 51px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .section-1__options {
+    margin-top: 50px;
+  }
+  .section-1__options__list--item:hover
+    .section-1__option__list--item__details {
+    background: transparent;
+  }
+  .section-1__options__list--item_container {
+    -webkit-border-radius: 20px;
+  }
+
+  .section-1__options__list--item {
+    min-width: 318px;
+    width: 100%;
+    height: 318px;
+  }
+
+  .section-1__option__list--item__title {
+    width: 100%;
+    height: 86px;
+
+    padding: 25px;
+  }
+  .section-1__option__list--item__subtitle {
+    padding: 66px 0 0 25px;
+  }
+  .section-1__option__list--item__details {
+    padding: 0;
+    left: 25px;
+    bottom: 25px;
+  }
+}

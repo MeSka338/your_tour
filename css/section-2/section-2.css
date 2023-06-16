@@ -1,0 +1,283 @@
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 135px;
+}
+
+.section-2__title {
+  color: var(--Black);
+
+  margin-bottom: 30px;
+}
+
+.section-2__subtitle {
+  color: var(--Gray300);
+
+  margin-bottom: 100px;
+}
+
+.section-2__form {
+  max-width: 1170px;
+  min-height: 986px;
+
+  width: 100%;
+  height: 100%;
+
+  background: var(--White);
+
+  border-radius: 50px;
+}
+
+.form-container {
+  padding: 70px;
+}
+
+.from-element {
+  position: relative;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.form-element--title {
+  margin-bottom: 8px;
+}
+
+.from-element > img {
+  position: absolute;
+  top: 65%;
+  right: 22px;
+
+  pointer-events: none;
+}
+
+.from-element--input {
+  max-width: 500px;
+  max-height: 68px;
+
+  width: 100%;
+  width: 100%;
+
+  padding: 20px;
+  border-radius: 10px;
+  border: var(--Beige200) solid 1px;
+  background: var(--Beige100);
+
+  outline: none;
+
+  cursor: pointer;
+}
+.select {
+  appearance: none;
+}
+.select:required:invalid {
+  color: gray;
+}
+
+.select > option {
+  background: var(--White);
+  color: black;
+}
+
+.from-element--input:hover {
+  background: var(--Beige200);
+}
+
+.from-element--input:focus {
+  border: var(--Gray300) solid 1px;
+}
+
+.comment {
+  max-width: 1030px;
+  max-height: 152px !important;
+
+  width: 100%;
+  height: 152px;
+}
+
+.comment-title {
+  margin-top: 33px;
+}
+
+.section-1__form__age-check {
+  margin-top: 33px;
+}
+
+.age-check--title {
+  margin-bottom: 9px;
+}
+
+.srction-1__form__license-agreemt {
+  margin-top: 33px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.radio-container {
+  display: inline-flex;
+}
+
+.label {
+  height: 28px;
+
+  position: relative;
+
+  margin-right: 31px;
+}
+
+.radio-container .fake_radio {
+  display: inline-block;
+
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--Black);
+  border-radius: 50%;
+  margin-right: 11px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.radio-container > .fake_radio:after {
+  content: "";
+
+  width: 12px;
+  height: 12px;
+
+  background: var(--Black);
+
+  border-radius: 50%;
+
+  opacity: 0;
+}
+input[type="radio"]:checked + .radio-container > .fake_radio:after {
+  opacity: 1;
+}
+
+.srction-1__form__license-agreemt {
+  display: flex;
+}
+
+.checkbox-title {
+  color: var(--Gray300);
+}
+.checkbox-label {
+  width: 26px;
+  height: 26px;
+
+  border: 2px solid var(--Black);
+
+  border-radius: 5px;
+
+  margin-right: 11px;
+  position: relative;
+
+  cursor: pointer;
+}
+
+.checkbox-label:after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid var(--Black);
+  border-left: 2px solid var(--Black);
+
+  top: 50%;
+  right: 50%;
+
+  transform: translate(50%, -70%) rotate(-45deg);
+  height: 7.12px;
+  width: 12.24px;
+  opacity: 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .checkbox-label:after {
+  opacity: 1;
+}
+
+.license {
+  text-decoration: none;
+
+  color: var(--Black);
+}
+.license:hover {
+  border-bottom: 1px solid var(--Black);
+}
+
+.buttons {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.find-tour {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 15px 30px; */
+  gap: 10px;
+
+  width: 235px;
+  height: 58px;
+
+  border-radius: 10px;
+
+  background: var(--Green400);
+  color: var(--White);
+  border: none;
+
+  cursor: pointer;
+}
+
+.find-tour:hover {
+  background: var(--Green300);
+}
+
+.find-tour:active {
+  background: var(--Green200);
+}
+
+.teset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+
+  width: 235px;
+  height: 58px;
+
+  border-radius: 10px;
+
+  background: var(--Green100);
+
+  color: var(--Green400);
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.teset:hover {
+  background: var(--Gray100);
+}
+
+.teset:active {
+  background: var(--Gray200);
+}

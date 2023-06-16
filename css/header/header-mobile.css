@@ -1,0 +1,59 @@
+@media (max-width: 425px) {
+  .h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 112%;
+  }
+
+  .h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 112%;
+  }
+
+  .h3 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+  }
+
+  .p-big {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 142%;
+  }
+
+  .p-normal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 142%;
+  }
+
+  .header {
+    height: 488px;
+  }
+
+  .header__nav {
+    margin: 33px 20px;
+  }
+
+  .header__nav--logo {
+    width: 133px;
+  }
+
+  .header__nav--logo-img {
+    width: 100%;
+  }
+
+  .hreader__hero {
+    margin-top: 140px;
+  }
+
+  .header__hero--title {
+    width: 60%;
+  }
+
+  .header__hero--subtitle {
+    width: 75%;
+  }
+}
