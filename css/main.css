@@ -1,27 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
 @import "./vars.css";
-
 @import "./header/header.css";
-@import "./header/header-tablet.css";
-@import "./header/header-mobile.css";
 @import "./section-1/section-1.css";
-@import "./section-1/section-1-tablet.css";
-@import "./section-1/section-1-mobile.css";
 @import "./section-2/section-2.css";
-@import "./section-2/section-2-tablet.css";
-@import "./section-2/section-2-mobile.css";
 @import "./section-3/section-3.css";
-@import "./section-3/section-3-tablet.css";
-@import "./section-3/section-3-mobile.css";
 @import "./section-4/section-4.css";
-@import "./section-4/section-4-tablet.css";
-@import "./section-4/section-4-mobile.css";
 @import "./section-5/section-5.css";
-@import "./section-5/section-5-tablet.css";
-@import "./section-5/section-5-mobile.css";
 @import "./footer/footer.css";
-@import "./footer/footer-tablet.css";
-@import "./footer/footer-mobile.css";
 
 * {
   margin: 0;

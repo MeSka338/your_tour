@@ -1,5 +1,0 @@
-@media (max-width: 1024px) {
-  .section-3__review__wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
