@@ -9,33 +9,33 @@
   </head>
   <body>
     <header class="header">
-      <div class="nav-wrapper">
+      <div class="header__nav-wrapper">
         <nav class="header__nav">
-          <div class="header__nav--logo">
-            <a href="#" class="header__nav--logo-href">
+          <div class="logo">
+            <a href="#" class="menu__link">
               <img
                 src="./public/img/YourTour.png"
                 alt="main_logo"
-                class="header__nav--logo-img"
+                class="logo__img"
               />
             </a>
           </div>
-          <ul class="header__nav__list">
-            <li class="header__nav__list--item p-normal">
-              <a href="#" class="header__nav__list--item-href">Туры</a>
+          <ul class="menu">
+            <li class="menu__item p-normal">
+              <a href="#" class="menu__link">Туры</a>
             </li>
-            <li class="header__nav__list--item p-normal">
-              <a href="#" class="header__nav__list--item-href">Создать тур</a>
+            <li class="menu__item p-normal">
+              <a href="#" class="menu__link">Создать тур</a>
             </li>
-            <li class="header__nav__list--item p-normal">
-              <a href="#" class="header__nav__list--item-href">Отзывы</a>
+            <li class="menu__item p-normal">
+              <a href="#" class="menu__link">Отзывы</a>
             </li>
-            <li class="header__nav__list--item p-normal">
-              <a href="#" class="header__nav__list--item-href">Истории</a>
+            <li class="menu__item p-normal">
+              <a href="#" class="menu__link">Истории</a>
             </li>
           </ul>
 
-          <p class="header__nav--contacts p-normal">+7 999 999 99 99</p>
+          <p class="contact p-normal">+7 999 999 99 99</p>
         </nav>
       </div>
 
@@ -49,191 +49,177 @@
       </div>
     </header>
 
-    <section class="section_1">
-      <h2 class="section-1__title h2">Выбери свой тур</h2>
+    <section class="section-1">
+      <h2 class="section-1__title h2 title">Выбери свой тур</h2>
       <ul class="section-1__menu">
         <li class="section-1__menu--item p-big active">
           <a href="#">Популярные</a>
         </li>
-        <li class="section-1__menu--item p-big"><a href="#">Авторские</a></li>
-        <li class="section-1__menu--item p-big"><a href="#">Походы</a></li>
-        <li class="section-1__menu--item p-big"><a href="#">Сплавы</a></li>
         <li class="section-1__menu--item p-big">
-          <a href="#">Велопрогулки</a>
+          <a href="#" class="section-1__link">Авторские</a>
+        </li>
+        <li class="section-1__menu--item p-big">
+          <a href="#" class="section-1__link">Походы</a>
+        </li>
+        <li class="section-1__menu--item p-big">
+          <a href="#" class="section-1__link">Сплавы</a>
+        </li>
+        <li class="section-1__menu--item p-big">
+          <a href="#" class="section-1__link">Велопрогулки</a>
         </li>
       </ul>
       <div class="section-1__options">
-        <ul class="section-1__options__list">
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-1.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-1.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3 h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
+        </div>
 
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-2.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-2.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3 h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-3.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-3.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-4.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-4.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-5.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-5.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
-          <div class="section-1__options__list--item_container">
-            <li class="section-1__options__list--item">
-              <div class="grad"></div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="grad"></div>
+            <img
+              src="./public/img/cardTourPhoto-6.jpg"
+              alt="1"
+              class="card-bg"
+            />
+            <h3 class="card__title h3">Путешествие в горы</h3>
+            <p class="card__subtitle p-small">от 80 000 рубл</p>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
               <img
-                src="./public/img/cardTourPhoto-6.jpg"
-                alt="1"
-                class="section-1__options__list--item-bg"
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt="arrow"
               />
-              <h3 class="section-1__option__list--item__title h3">
-                Путешествие в горы
-              </h3>
-              <p class="section-1__option__list--item__subtitle p-small">
-                от 80 000 рубл
-              </p>
-              <a href="#" class="section-1__option__list--item__details">
-                <p class="section-1__option__list--item__details--title p-big">
-                  Подробнее
-                </p>
-                <img src="./public/img/arrow.svg" alt="arrow" />
-              </a>
-            </li>
+            </a>
           </div>
-        </ul>
+        </div>
       </div>
     </section>
 
     <section class="section-2">
-      <h2 class="section-2__title h2">Собери свой тур</h2>
-      <p class="section-2__subtitle p-normal">
+      <h2 class="section-2__title h2 title">Собери свой тур</h2>
+      <p class="section-2__subtitle p-normal subtitle">
         Идейные соображения высшего порядка,<br />a также рамки и место обучения
         кадров
       </p>
       <form class="section-2__form">
         <div class="form-container">
-          <div class="form">
+          <div class="form-grid">
             <div class="from-element">
-              <p class="form-element--title p-normal">Имя</p>
+              <p class="form-element__title p-normal">Имя</p>
               <input
                 type="text"
-                class="from-element--input p-normal"
+                class="from-element__input p-normal"
                 placeholder="Введите Ваше имя"
               />
             </div>
             <div class="from-element">
-              <p class="form-element--title p-normal">Направление</p>
+              <p class="form-element__title p-normal">Направление</p>
               <img class="arrow" src="./public/img/downArrow.svg" alt="dr" />
               <select
                 required
-                class="from-element--input p-normal select"
+                class="from-element__input p-normal select"
                 name="path"
                 id="paht"
               >
-                <option
-                  value=""
-                  disabled
-                  selected
-                  hidden
-                  class="hidden-option option"
-                >
+                <option value="" disabled selected hidden>
                   Куда хотите ехать
                 </option>
                 <option value="1">Юг</option>
@@ -243,59 +229,64 @@
               </select>
             </div>
             <div class="from-element">
-              <p class="form-element--title p-normal">Email</p>
+              <p class="form-element__title p-normal">Email</p>
               <input
                 type="email"
-                class="from-element--input p-normal"
+                class="from-element__input p-normal"
                 placeholder="example@mail.com"
               />
             </div>
             <div class="from-element">
-              <p class="form-element--title p-normal">Телефон</p>
+              <p class="form-element__title p-normal">Телефон</p>
               <input
                 type="tel"
-                class="from-element--input p-normal"
+                class="from-element__input p-normal"
                 placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
               />
             </div>
             <div class="from-element">
-              <p class="form-element--title p-normal">Дата от</p>
+              <p class="form-element__title p-normal">Дата от</p>
               <input
                 type="date"
-                class="from-element--input p-normal"
+                class="from-element__input p-normal"
                 placeholder="ДД.ММ.ГГГГ"
               />
             </div>
             <div class="from-element">
-              <p class="form-element--title p-normal">Дата до</p>
+              <p class="form-element__title p-normal">Дата до</p>
               <input
                 type="date"
-                class="from-element--input p-normal"
+                class="from-element__input p-normal"
                 placeholder="ДД.ММ.ГГГГ"
               />
             </div>
           </div>
           <div class="from-element">
-            <p class="form-element--title p-normal comment-title">
+            <p class="form-element__title p-normal comment-title">
               Комментарий
             </p>
-            <textarea class="from-element--input p-normal comment"></textarea>
+            <textarea class="from-element__input p-normal comment"></textarea>
           </div>
 
-          <div class="section-1__form__age-check">
-            <p class="age-check--title p-normal">Вам есть 18 лет?</p>
-            <input class="radio" type="radio" name="ansuer" id="yes" />
-            <div class="radio-container">
-              <label for="yes" class="fake_radio"></label>
-              <label class="label p-normal" for="yes">Да</label>
+          <div class="age-check">
+            <p class="age-check__title p-normal">Вам есть 18 лет?</p>
+            <input
+              class="age-check__radio"
+              type="radio"
+              name="ansuer"
+              id="yes"
+            />
+            <div class="fake-radio-container">
+              <label for="yes" class="fake-radio"></label>
+              <label class="radio-label p-normal" for="yes">Да</label>
             </div>
             <input class="radio" type="radio" name="ansuer" id="no" />
-            <div class="radio-container">
-              <label for="no" class="fake_radio"></label>
-              <label class="label p-normal" for="no">Нет</label>
+            <div class="fake-radio-container">
+              <label for="no" class="fake-radio"></label>
+              <label class="radio-label p-normal" for="no">Нет</label>
             </div>
           </div>
-          <div class="srction-1__form__license-agreemt">
+          <div class="license-agreemt">
             <input type="checkbox" id="check" name="licen" />
             <label class="checkbox-label" for="check"></label>
             <p class="checkbox-title p-small">
@@ -304,23 +295,29 @@
             </p>
           </div>
           <div class="buttons">
-            <button class="find-tour p-normal" type="submit">Найти тур</button>
-            <button class="teset p-normal" type="reset">Сбросить</button>
+            <button class="submit form-btn p-normal" type="submit">
+              Найти тур
+            </button>
+            <button class="reset form-btn p-normal" type="reset">
+              Сбросить
+            </button>
           </div>
         </div>
       </form>
     </section>
 
     <section class="section-3">
-      <h2 class="section-3__title h2">Отзывы наших<br />путешественников</h2>
-      <p class="section-3__subtitle p-normal">
+      <h2 class="section-3__title title h2">
+        Отзывы наших<br />путешественников
+      </h2>
+      <p class="section-3__subtitle subtitle p-normal">
         Идейные соображения высшего порядка, а также рамки и место обучения
         кадров
       </p>
 
-      <div class="section-3__review__wrapper">
-        <div class="section-3__review">
-          <p class="seciton-3__review__textblock p-big">
+      <div class="review-wrapper">
+        <div class="review">
+          <p class="review__textblock p-big">
             Идейные соображения высшего порядка, а также рамки и место обучения
             кадров обеспечивает широкому кругу (специалистов) участие в
             формировании новых предложений. Идейные соображения высшего порядка,
@@ -328,23 +325,17 @@
             оценить значение модели развития.
           </p>
 
-          <div class="section-3__review__profile">
-            <div class="section-3__review__profile__title">
-              <h3 class="section-3__review__profile--name h3">Мария</h3>
-              <div class="section-3__review__profile--tour p-small">
-                Тур: Вдали от дома
-              </div>
+          <div class="profile">
+            <div class="profile__title">
+              <h3 class="profile__name h3">Мария</h3>
+              <div class="profile__tour p-small">Тур: Вдали от дома</div>
             </div>
-            <img
-              src="./public/img/mari.png"
-              alt="mari"
-              class="section-3__review__profile--img"
-            />
+            <img src="./public/img/mari.png" alt="mari" class="profile__img" />
           </div>
         </div>
 
-        <div class="section-3__review">
-          <p class="seciton-3__review__textblock p-big">
+        <div class="review">
+          <p class="review__textblock p-big">
             Равным образом постоянный количественный рост и сфера нашей
             активности играет важную роль в формировании системы обучения
             кадров, соответствует насущным потребностям.<br /><br />
@@ -356,30 +347,24 @@
             развития.
           </p>
 
-          <div class="section-3__review__profile">
-            <div class="section-3__review__profile__title">
-              <h3 class="section-3__review__profile--name h3">Павел</h3>
-              <div class="section-3__review__profile--tour p-small">
-                Тур: Путешествие в горы
-              </div>
+          <div class="profile">
+            <div class="profile__title">
+              <h3 class="profile__name h3">Павел</h3>
+              <div class="profile__tour p-small">Тур: Путешествие в горы</div>
             </div>
-            <img
-              src="./public/img/pavel.png"
-              alt="mari"
-              class="section-3__review__profile--img"
-            />
+            <img src="./public/img/pavel.png" alt="mari" class="profile__img" />
           </div>
         </div>
       </div>
     </section>
 
     <section class="section-4">
-      <h2 class="section-4__title h2">Фотографии путешествий</h2>
-      <p class="section-4__subtitle p-normal">
+      <h2 class="section-4__title title h2">Фотографии путешествий</h2>
+      <p class="section-4__subtitle subtitle p-normal">
         Идейные соображения высшего порядка, а также рамки и место обучения
         кадров
       </p>
-      <div class="secrtion-4__gallery">
+      <div class="gallery">
         <img
           src="./public/img/travel photo-1.jpg"
           alt=""
@@ -401,14 +386,14 @@
           class="photo grid-1"
         />
       </div>
-      <div class="secrtion-4__gallery grid-big">
+      <div class="gallery grid-big">
         <img src="./public/img/travel photo-5.jpg" alt="" class="photo-small" />
         <img src="./public/img/travel photo-6.jpg" alt="" class="photo-small" />
         <img src="./public/img/travel photo-7.jpg" alt="" class="photo-small" />
         <img src="./public/img/travel photo-8.jpg" alt="" class="photo-small" />
         <img src="./public/img/travel photo-9.jpg" alt="" class="photo-small" />
       </div>
-      <div class="secrtion-4__gallery">
+      <div class="gallery">
         <img
           src="./public/img/travel photo-10.jpg"
           alt=""
@@ -433,109 +418,102 @@
     </section>
 
     <section class="section-5">
-      <h2 class="section-5__title h2">Истории путешествий</h2>
-      <p class="section-5__subtitle p-normal">
+      <h2 class="section-5__title title h2">Истории путешествий</h2>
+      <p class="section-5__subtitle subtitle p-normal">
         Идейные соображения высшего порядка, а также рамки и место обучения
         кадров
       </p>
 
-      <div class="section-5__story-card">
-        <img
-          src="./public/img/story photo-1.jpg"
-          alt="1"
-          class="story-card--bg"
-        />
-        <div class="story__content">
-          <h3 class="story--title h3">Автостопом в Стамбул</h3>
-          <p class="story--text p-small">
-            Идейные соображения высшего порядка, а также рамки и место обучения
-            кадров обеспечивает широкому кругу (специалистов) участие в
-            формировании новых предложений.
-          </p>
-          <ul class="story__text-list">
-            <li class="story__text-list--item p-small">вкусная еда</li>
-            <li class="story__text-list--item p-small">дешевый транспорт</li>
-            <li class="story__text-list--item p-small">красивый город</li>
-          </ul>
-          <a href="#" class="story__ditales">
-            <p class="story__detales--title p-big">Подробнее</p>
-            <img
-              class="story__detales--icon"
-              src="./public/img/arrow.svg"
-              alt=""
-            />
-          </a>
-          <div class="story__socials">
-            <a href="#" class="story__socials--item p-small">instagram</a>
-            <a href="#" class="story__socials--item p-small">facebook</a>
-            <a href="#" class="story__socials--item p-small">YouTube</a>
+      <div class="card-container-big">
+        <div class="card-big card">
+          <img src="./public/img/story photo-1.jpg" alt="1" class="card-bg" />
+          <div class="card-big__content">
+            <h3 class="card-big__title h3">Автостопом в Стамбул</h3>
+            <p class="card-big__subtitle p-small">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений.
+            </p>
+            <ul class="card-big__subtitle-list">
+              <li class="subtitle-list__item p-small">вкусная еда</li>
+              <li class="subtitle-list__item p-small">дешевый транспорт</li>
+              <li class="subtitle-list__item p-small">красивый город</li>
+            </ul>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
+              <img
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt=""
+              />
+            </a>
+            <div class="socials card__socials">
+              <a href="#" class="socials__item p-small">instagram</a>
+              <a href="#" class="socials__item p-small">facebook</a>
+              <a href="#" class="socials__item p-small">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-container-big">
+        <div class="card-big card">
+          <img src="./public/img/story photo-2.jpg" alt="1" class="card-bg" />
+          <div class="card-big__content">
+            <h3 class="card-big__title h3">Автостопом в Стамбул</h3>
+            <p class="card-big__subtitle p-small">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений.
+            </p>
+
+            <a href="#" class="secondary-btn section-5__btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
+              <img
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt=""
+              />
+            </a>
+            <div class="socials card__socials">
+              <a href="#" class="socials__item p-small">instagram</a>
+              <a href="#" class="socials__item p-small">facebook</a>
+              <a href="#" class="socials__item p-small">YouTube</a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="section-5__story-card">
-        <img
-          src="./public/img/story photo-2.jpg"
-          alt="1"
-          class="story-card--bg"
-        />
-        <div class="story__content">
-          <h3 class="story--title h3">Автостопом в Стамбул</h3>
-          <p class="story--text p-small">
-            Идейные соображения высшего порядка, а также рамки и место обучения
-            кадров обеспечивает широкому кругу (специалистов) участие в
-            формировании новых предложений:
-          </p>
+      <div class="card-container-big">
+        <div class="card-big card">
+          <img src="./public/img/story photo-3.jpg" alt="1" class="card-bg" />
+          <div class="card-big__content">
+            <h3 class="card-big__title h3">Автостопом в Стамбул</h3>
+            <p class="card-big__subtitle p-small">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений.
+            </p>
 
-          <a href="#" class="story__ditales">
-            <p class="story__detales--title p-big">Подробнее</p>
-            <img
-              class="story__detales--icon"
-              src="./public/img/arrow.svg"
-              alt=""
-            />
-          </a>
-          <div class="story__socials">
-            <a href="#" class="story__socials--item p-small">instagram</a>
-            <a href="#" class="story__socials--item p-small">facebook</a>
-            <a href="#" class="story__socials--item p-small">YouTube</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-5__story-card">
-        <img
-          src="./public/img/story photo-3.jpg"
-          alt="1"
-          class="story-card--bg"
-        />
-        <div class="story__content">
-          <h3 class="story--title h3">Автостопом в Стамбул</h3>
-          <p class="story--text p-small">
-            Идейные соображения высшего порядка, а также рамки и место обучения
-            кадров обеспечивает широкому кругу (специалистов) участие в
-            формировании новых предложений:
-          </p>
-
-          <a href="#" class="story__ditales">
-            <p class="story__detales--title p-big">Подробнее</p>
-            <img
-              class="story__detales--icon"
-              src="./public/img/arrow.svg"
-              alt=""
-            />
-          </a>
-          <div class="story__socials">
-            <a href="#" class="story__socials--item p-small">instagram</a>
-            <a href="#" class="story__socials--item p-small">facebook</a>
-            <a href="#" class="story__socials--item p-small">YouTube</a>
+            <a href="#" class="secondary-btn">
+              <p class="secondary-btn__title p-big">Подробнее</p>
+              <img
+                class="secondary-btn__icon"
+                src="./public/img/arrow.svg"
+                alt=""
+              />
+            </a>
+            <div class="socials card__socials">
+              <a href="#" class="socials__item p-small">instagram</a>
+              <a href="#" class="socials__item p-small">facebook</a>
+              <a href="#" class="socials__item p-small">YouTube</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <footer class="footer">
-      <div class="footer__content-wrapper">
+      <div class="footer-container">
         <img
           src="./public/img/footer photo.jpg"
           alt="footer img"
@@ -543,49 +521,41 @@
         />
 
         <div class="footer__content">
-          <h3 class="footer__content--title h3">
-            Пора в путешествие вместе с нами!
-          </h3>
-          <p class="footer__content--subtitle p-normal">
+          <h3 class="footer__title h3">Пора в путешествие вместе с нами!</h3>
+          <p class="footer__subtitle p-normal">
             Напиши на почту и узнай подробности<br />на
             <a href="#" class="link">yourtour@gmail.com</a>
           </p>
         </div>
       </div>
       <div class="footer__contacts">
-        <p class="footer__contacts--title p-normal">Наши социальные сети</p>
-        <div class="footer__contacts__socials">
-          <div class="footer__contacts__socials--item">
+        <p class="contacts__title p-normal">Наши социальные сети</p>
+        <div class="contacts__socials socials">
+          <div class="contacts__item socials__item">
             <img
-              class="footer__contacts__socials--icon"
+              class="contacts__icon"
               src="./public/img/instagram-icon.png"
               alt=""
             />
-            <a href="#" class="footer__contacts__socials--title p-normal"
-              >instagram</a
-            >
+            <a href="#" class="socials__title p-normal">instagram</a>
           </div>
 
-          <div class="footer__contacts__socials--item">
+          <div class="contacts__item socials__item">
             <img
-              class="footer__contacts__socials--icon"
-              src="./public/img/facebook-icon.png"
+              class="contacts__icon"
+              src="./public/img/instagram-icon.png"
               alt=""
             />
-            <a href="#" class="footer__contacts__socials--title p-normal"
-              >facebook</a
-            >
+            <a href="#" class="socials__title p-normal">instagram</a>
           </div>
 
-          <div class="footer__contacts__socials--item">
+          <div class="contacts__item socials__item">
             <img
-              class="footer__contacts__socials--icon"
-              src="./public/img/vk-icon.png"
+              class="contacts__icon"
+              src="./public/img/instagram-icon.png"
               alt=""
             />
-            <a href="#" class="footer__contacts__socials--title p-normal"
-              >vkontakte</a
-            >
+            <a href="#" class="socials__title p-normal">instagram</a>
           </div>
         </div>
       </div>
