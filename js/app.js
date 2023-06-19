@@ -11,12 +11,12 @@ window.onscroll = () => {
 };
 
 addEventListener("click", (e) => {
-  if (e.target.classList.value == "section-1__link") {
+  if (e.target.classList.value == "section-1-menu__link") {
     const list = document.querySelector(".section-1__menu");
     for (let i = 0; i < list.childElementCount; i++) {
       list.children.item(i).classList.remove("active");
     }
 
-    e.target.closest(".section-1__menu--item").classList.add("active");
+    e.target.closest(".section-1-menu__item").classList.add("active");
   }
 });

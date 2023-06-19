@@ -5,7 +5,7 @@
   padding-top: 135px;
 }
 
-.section-1__title {
+.title {
   color: var(--Black);
   margin-bottom: 35px;
 }
@@ -18,12 +18,12 @@
   gap: 30px;
   padding-bottom: 106px;
 }
-.section-1__menu--item {
+.section-1-menu__item {
   color: var(--Black);
 
   cursor: pointer;
 }
-.section-1__menu--item:hover > a {
+.section-1-menu__item:hover > a {
   text-underline-offset: 10px;
 }
 
@@ -33,7 +33,6 @@
 
   color: var(--Orange200);
 }
-/* the hell  */
 
 .section-1__options {
   list-style: none;
@@ -44,7 +43,7 @@
 
 .card-container {
   overflow: hidden;
-  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 .card {
@@ -79,7 +78,7 @@
 
   transition: all 0.3s ease;
 }
-/* hell ends */
+
 .card:hover .card-bg {
   transform: scale(1.2);
   transition: all 0.3s ease;
@@ -125,9 +124,6 @@
 .secondary-btn:active {
   border-radius: 50px;
   background: var(--Orange200) !important;
-}
-
-.section-1__option--item__details--title {
 }
 
 /* TABLET */
