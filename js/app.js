@@ -11,12 +11,12 @@ window.onscroll = () => {
 };
 
 addEventListener("click", (e) => {
-  if (e.target.classList.value == "section-1-menu__link") {
-    const list = document.querySelector(".section-1__menu");
+  if (e.target.classList.value == "select-tour-menu__link") {
+    const list = document.querySelector(".select-tour__menu");
     for (let i = 0; i < list.childElementCount; i++) {
       list.children.item(i).classList.remove("active");
     }
 
-    e.target.closest(".section-1-menu__item").classList.add("active");
+    e.target.closest(".select-tour-menu__item").classList.add("active");
   }
 });
