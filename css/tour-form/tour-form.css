@@ -1,4 +1,4 @@
-.section-2 {
+.tour-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,20 +6,20 @@
   padding-top: 135px;
 }
 
-.section-2__title {
+.tour-form__title {
   color: var(--Black);
   text-align: center;
   margin-bottom: 30px;
 }
 
-.section-2__subtitle {
+.tour-form__subtitle {
   color: var(--Gray300);
   text-align: center;
 
   margin-bottom: 100px;
 }
 
-.section-2__form {
+.tour-form__form {
   max-width: 1170px;
   min-height: 986px;
 
@@ -76,8 +76,8 @@
 .select {
   appearance: none;
 }
-.select:required:invalid {
-  color: gray;
+.select:invalid {
+  color: var(--Gray300);
 }
 
 .select > option {
@@ -99,6 +99,8 @@
 
   width: 100%;
   height: 152px;
+
+  cursor: text;
 }
 
 .comment-title {
@@ -142,6 +144,8 @@ input[type="radio"] {
   align-items: center;
   justify-content: center;
   position: relative;
+
+  cursor: pointer;
 }
 
 .fake-radio-container > .fake-radio:after {
@@ -158,6 +162,17 @@ input[type="radio"] {
 }
 input[type="radio"]:checked + .fake-radio-container > .fake-radio:after {
   opacity: 1;
+}
+input[type="date"] {
+  color: var(--Gray300);
+  text-transform: uppercase;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+::placeholder {
+  color: var(--Gray300);
 }
 
 .license-agreemt {
@@ -275,7 +290,7 @@ input[type="checkbox"]:checked + .checkbox-label:after {
   }
 }
 @media (max-width: 1024px) {
-  .section-2 {
+  .tour-form {
     padding-right: 53px;
     padding-left: 53px;
   }
@@ -284,18 +299,18 @@ input[type="checkbox"]:checked + .checkbox-label:after {
 /* MOBILE */
 
 @media (max-width: 425px) {
-  .section-2 {
+  .tour-form {
     padding-top: 75px;
     padding: 75px 21px 0 21px;
   }
 
-  .section-2__title {
+  .tour-form__title {
     margin-bottom: 20px;
   }
-  .section-2__subtitle {
+  .tour-form__subtitle {
     margin-bottom: 40px;
   }
-  .section-2__form {
+  .tour-form__form {
     border-radius: 30px;
   }
 
@@ -305,16 +320,15 @@ input[type="checkbox"]:checked + .checkbox-label:after {
   }
 
   .from-element > img {
-    top: 60%;
-    right: 10.56px;
+    top: 64%;
+    right: 13.59px;
 
-    width: 13.31px;
-    height: 13.31px;
+    width: 18.82px;
   }
 
   .from-element__input {
     max-height: 43px;
-    padding: 10px;
+    padding: 11px 10px;
   }
 
   .comment {

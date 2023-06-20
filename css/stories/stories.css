@@ -1,5 +1,5 @@
 /* SECTION 5 */
-.section-5 {
+.stories {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@
   margin: 0 53px;
 }
 
-.section-5__title {
+.stories__title {
   margin-bottom: 30px;
   text-align: center;
   color: var(--Black);
@@ -20,7 +20,7 @@
   margin-bottom: 37px;
 }
 
-.section-5__subtitle {
+.stories__subtitle {
   max-width: 418px;
   height: 56px;
   text-align: center;
@@ -52,6 +52,7 @@
 }
 
 .card-big__content {
+  z-index: 2;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -87,6 +88,19 @@
 .socials__item:active {
   color: var(--Orange200);
 }
+
+.grad-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  z-index: 2;
+}
 /* TABLET */
 
 @media (max-width: 675px) {
@@ -96,7 +110,7 @@
 }
 /* MOBILE */
 @media (max-width: 425px) {
-  .section-5 {
+  .stories {
     padding-top: 75px;
     margin: 0 21px;
   }
@@ -104,14 +118,14 @@
     height: 455px;
     border-radius: 25px;
   }
-  .section-5__title {
+  .stories__title {
     margin-bottom: 20px;
   }
 
-  .section-5__subtitle {
-    margin-bottom: 50px;
+  .card-big__subtitle {
+    margin-bottom: 25px;
   }
-  .story--title {
+  .card-big__title {
     margin-bottom: 20px;
     width: 50%;
   }
@@ -122,7 +136,7 @@
     display: none;
   }
 
-  .section-5__btn {
+  .stories__btn {
     bottom: 30px;
     gap: 16px;
 

@@ -3,10 +3,10 @@ window.onscroll = () => {
   let logo = document.querySelector(".logo__img");
   if (window.pageYOffset > 450) {
     nav.classList.add("fixed");
-    logo.src = "/public/img/header/YourTour.svg";
+    logo.src = "/public/img/header/YourTour-black.svg";
   } else {
     nav.classList.remove("fixed");
-    logo.src = "/public/img/header/YourTour.png";
+    logo.src = "/public/img/header/YourTour-white.svg";
   }
 };
 

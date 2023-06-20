@@ -22,7 +22,7 @@ textarea {
 }
 
 .link:active {
-  color: var(--Gray300);
+  color: var(--Green400);
 }
 .h1 {
   font-weight: 700;

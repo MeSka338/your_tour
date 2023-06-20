@@ -1,6 +1,6 @@
 /* SECTION 3 */
 
-.section-3 {
+.reviwes {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   padding-top: 135px;
 }
 
-.section-3__title {
+.reviwes__title {
   color: var(--Black);
 
   text-align: center;
@@ -16,7 +16,7 @@
   margin-bottom: 30px;
 }
 
-.section-3__subtitle {
+.reviwes__subtitle {
   color: var(--Gray300);
   text-align: center;
 
@@ -62,7 +62,7 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .profile__name {
@@ -85,14 +85,14 @@
 /* MOBILE */
 
 @media (max-width: 425px) {
-  .section-3 {
+  .reviwes {
     padding-top: 75px;
     margin: 0;
   }
-  .section-3__title {
+  .reviwes__title {
     margin-bottom: 20px;
   }
-  .section-3__subtitle {
+  .reviwes__subtitle {
     margin-bottom: 50px;
   }
   .review-wrapper {
