@@ -1,5 +1,7 @@
+/* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
-@import "./vars.css";
+
+/* SECTIONS STYLES */
 @import "./header/header.css";
 @import "./select-tour/select-tour.css";
 @import "./tour-form/tour-form.css";
@@ -8,6 +10,10 @@
 @import "./stories/stories.css";
 @import "./footer/footer.css";
 
+/* VARIABLES */
+@import "./vars.css";
+
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;

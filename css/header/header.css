@@ -150,43 +150,6 @@
 /* MOBILE */
 
 @media (max-width: 425px) {
-  .h1 {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 112%;
-  }
-
-  .h2 {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 112%;
-  }
-
-  .h3 {
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 120%;
-  }
-
-  .p-big {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 142%;
-  }
-
-  .p-normal {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 142%;
-  }
-
-  .p-small {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 142%;
-  }
-
   .header {
     height: 488px;
   }
