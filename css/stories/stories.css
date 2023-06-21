@@ -121,7 +121,9 @@
   .stories__title {
     margin-bottom: 20px;
   }
-
+  .stories__subtitle {
+    margin-bottom: 50px;
+  }
   .card-big__subtitle {
     margin-bottom: 25px;
   }

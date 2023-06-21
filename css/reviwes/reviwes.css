@@ -49,8 +49,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  margin-bottom: 30px;
 }
 
 .review__textblock {
@@ -75,8 +73,12 @@
 }
 
 /* TABLET */
-
 @media (max-width: 1024px) {
+  .review-wrapper {
+    gap: 18px;
+  }
+}
+@media (max-width: 768px) {
   .review-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }

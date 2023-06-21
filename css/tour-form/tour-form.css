@@ -6,17 +6,18 @@
   padding-top: 135px;
 }
 
-.tour-form__title {
+.title {
   color: var(--Black);
   text-align: center;
   margin-bottom: 30px;
 }
-
-.tour-form__subtitle {
-  color: var(--Gray300);
+.subtitle {
+  max-width: 418px;
+  height: 56px;
   text-align: center;
-
+  color: var(--Gray300);
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .tour-form__form {
