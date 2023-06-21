@@ -65,7 +65,12 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
+}
+
+link:active {
+  color: var(--Green400);
 }
 @media (max-width: 768px) {
   .h1 {
