@@ -124,29 +124,6 @@
   color: var(--Black);
 }
 
-/* TABLET */
-
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-}
-
-@media (max-width: 1024px) {
-  .menu {
-    gap: 30px;
-  }
-}
-
-@media (max-width: 620px) {
-  .h1 {
-    font-size: 66px;
-  }
-  .h2 {
-    font-size: 45px;
-  }
-}
-
 /* MOBILE */
 
 @media (max-width: 425px) {
@@ -174,5 +151,19 @@
 
   .header__hero--subtitle {
     width: 75%;
+  }
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    gap: 30px;
   }
 }

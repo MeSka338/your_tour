@@ -67,7 +67,14 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
-
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 66px;
+  }
+  .h2 {
+    font-size: 45px;
+  }
+}
 @media (max-width: 425px) {
   .h1 {
     font-weight: 700;
