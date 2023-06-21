@@ -130,6 +130,7 @@
   .select-tour__options {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
   }
   .card {
     min-width: 0;
@@ -189,11 +190,10 @@
     width: 100%;
     margin-bottom: 13px;
   }
-  .card__subtitle {
-  }
+
   .secondary-btn {
     padding: 0;
-    left: 25px;
-    bottom: 25px;
+    left: 30px;
+    bottom: 31.5px;
   }
 }

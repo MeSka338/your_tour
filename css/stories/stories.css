@@ -20,14 +20,6 @@
   margin-bottom: 37px;
 }
 
-.stories__subtitle {
-  max-width: 418px;
-  height: 56px;
-  text-align: center;
-  color: var(--Gray300);
-  margin-bottom: 100px;
-  text-align: center;
-}
 .card-container-big {
   overflow: hidden;
   border-radius: 50px;

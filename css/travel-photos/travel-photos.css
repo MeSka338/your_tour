@@ -16,16 +16,6 @@
   color: var(--Black);
 }
 
-.travel-photos__subtitle {
-  max-width: 418px;
-  width: 100%;
-  height: 56px;
-
-  color: var(--Gray300);
-  margin-bottom: 100px;
-  text-align: center;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

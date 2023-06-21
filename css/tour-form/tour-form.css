@@ -6,20 +6,6 @@
   padding-top: 135px;
 }
 
-.title {
-  color: var(--Black);
-  text-align: center;
-  margin-bottom: 30px;
-}
-.subtitle {
-  max-width: 418px;
-  height: 56px;
-  text-align: center;
-  color: var(--Gray300);
-  margin-bottom: 100px;
-  text-align: center;
-}
-
 .tour-form__form {
   max-width: 1170px;
   min-height: 986px;
@@ -305,11 +291,8 @@ input[type="checkbox"]:checked + .checkbox-label:after {
     padding: 75px 21px 0 21px;
   }
 
-  .tour-form__title {
-    margin-bottom: 20px;
-  }
   .tour-form__subtitle {
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
   }
   .tour-form__form {
     border-radius: 30px;
