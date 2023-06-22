@@ -106,9 +106,6 @@
   margin-bottom: 18px;
 }
 
-.card__subtitle {
-}
-
 .secondary-btn {
   display: flex;
   gap: 16px;
@@ -172,7 +169,6 @@
     text-decoration-thickness: 2px;
   }
   .select-tour__options {
-    /* width: auto; */
     margin-top: 50px;
   }
   .card:hover .secondary-btn {
