@@ -124,7 +124,8 @@
 }
 
 /* TABLET */
-@media (max-width: 768px) {
+
+@media (max-width: 878px) {
   .menu {
     display: none;
   }
@@ -140,7 +141,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 450px) {
+@media (max-width: 475px) {
   .header {
     height: 488px;
   }

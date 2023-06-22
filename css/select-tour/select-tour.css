@@ -46,6 +46,7 @@
 .card-container {
   overflow: hidden;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .card {
@@ -98,6 +99,7 @@
   height: 100%;
   padding-left: 50px;
   padding-top: 50px;
+  pointer-events: none;
 }
 .card__title {
   width: 80%;
@@ -147,7 +149,7 @@
 
 /* MOBILE */
 
-@media (max-width: 450px) {
+@media (max-width: 475px) {
   .select-tour {
     padding-top: 75px;
     margin: 0 21px;
