@@ -93,15 +93,14 @@
   text-align: center;
 
   max-width: 562px;
-  max-height: 56px;
 
   width: 100%;
   height: 100%;
 }
 
 .main-btn {
-  width: 114px;
-  height: 33px;
+  width: 118px;
+  height: 34px;
 
   display: flex;
   align-items: center;
@@ -141,7 +140,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .header {
     height: 488px;
   }
@@ -158,6 +157,7 @@
   }
   .hero {
     margin-top: 140px;
+    gap: 40px;
   }
 
   .hero__title {

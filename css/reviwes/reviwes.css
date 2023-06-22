@@ -40,6 +40,8 @@
 
 .review__textblock {
   color: var(--Black);
+
+  width: 99%;
 }
 
 .profile {
@@ -73,7 +75,10 @@
 
 /* MOBILE */
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
+  .profile {
+    padding-top: 40px;
+  }
   .reviwes {
     padding-top: 75px;
     margin: 0;
