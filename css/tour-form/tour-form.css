@@ -115,11 +115,10 @@ input[type="radio"] {
   position: relative;
 
   margin-right: 27px;
+  cursor: pointer;
 }
 
 .fake-radio-container .fake-radio {
-  display: inline-block;
-
   width: 26px;
   height: 26px;
   border: 2px solid var(--Black);
